@@ -6,6 +6,7 @@ public class Rock_Paper_Scissors {
         int pointsGamer = 0, pointsBot = 0;
         // the bot chooses one from this array
         char[] choice = {'r', 'p', 's'};
+        //noinspection InfiniteLoopStatement
         while(true) {
             System.out.println("--------------------------------");
             java.util.Random random = new java.util.Random();
