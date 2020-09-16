@@ -144,5 +144,6 @@ public class Rock_Paper_Scissors {
         System.out.println(" ");
         System.out.print("you won!");
     }
+    scanner.close();
     }
 }
